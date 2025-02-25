@@ -34,5 +34,8 @@ class Quiz {
         } else if (this.currentQuestionIndex === this.questions.length) {
             return true;
     }
-}
+  }
+  filterQuestionsByDifficulty(difficulty) {
+    
+  }
 }
